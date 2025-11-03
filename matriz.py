@@ -1,18 +1,25 @@
 import numpy as np
 
 rows = 36
-cols = 6
+cols = 7
 
 businessClass = 8
-EconomyClas = 28
-totalSections = sectionVIP + sectionTourist
+economyClass = 28
+totalSections = businessClass + economyClass
 
-missingSeats = [
-    row10 : D = 0
-    row24 : (A = 0, F = 0)
-    row25 : D = 0
-    rows1-9 : (B = 0, E = 0)
-]
+missingSeats = [(
+    row1 : (B = 0, D = 0, E = 0, F = 0);
+    row2 : (B = 0, E = 0);
+    row3 : (B = 0, E = 0);
+    row4 : (B = 0, E = 0);
+    row5 : (B = 0, E = 0);
+    row6 : (B = 0, E = 0);
+    row7 : (B = 0, E = 0);
+    row9 : F = 0;
+    row10 : (A = 0, B = 0, C = 0, D = 0);
+    row23 : (A = 0, F = 0);
+    row24 : D = 0;
+)]
 
 
 
